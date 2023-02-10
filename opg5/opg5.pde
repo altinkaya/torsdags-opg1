@@ -15,7 +15,7 @@ void methodOne()
   
   if (i > max)
   {
-    output = "i is greater than "+max+".";   
+    output = i+" is greater than "+max+".";   
      
   }
   
