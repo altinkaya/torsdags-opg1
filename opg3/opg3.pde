@@ -8,7 +8,7 @@ int z =6 ;
 
 void draw(){
   //kontroler om a+b giver 10
-if (a+b>=10){
+if (a+b==10 || a==10 ||b==10){
 println ("Success!");
 
 }
@@ -26,7 +26,7 @@ println("Failure!2");
 }
   
 // her definer jeg hvis x indholder 10 y indeholder 20 og z indeholder 30 og at z+x+y ikke giver 30 sakl den komme med en fejl meddelse 
-   if(x==10 || y==20 ||z==30 && x+y+z != 30){
+   if(x==10 || y==20 ||z==30 && x==20 || y==30 ||z==10 && x==30 || y==10 ||z==20 && x+y+z != 30){
   println("Failure!3");
    }
    // og her definer jeg hvis x+y+z giver30 skal den mellede succses
