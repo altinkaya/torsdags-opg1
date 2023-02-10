@@ -10,16 +10,16 @@ void setup() {
 void methodOne()
 {
   int i = 1000; // You are not allowed to change this line. 
-  
+  String output = "";
   int max = 10;
   
   if (i > max)
   {
-    String output = "i is greater than "+max+".";   
-     println(output);
+    output = "i is greater than "+max+".";   
+     
   }
   
- 
+ println(output);
    
 }
 
